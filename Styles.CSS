@@ -1,0 +1,85 @@
+/* Reset y estilos base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #d9e4dd;
+  color: #1d3557;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.imagen-cataratas {
+  max-width: 900px;
+  padding-left: 30%;
+}
+
+h2 {
+  margin-top: 35px;
+  margin-bottom: 30px;
+  color: #057965;
+  display: flex;
+  justify-content: center;
+}
+
+
+p {
+  font-style: italic;
+  color: #555;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  border-collapse: collapse;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+thead th {
+  background-color: #637e18;
+  color: white;
+  padding: 12px;
+  border: 1px solid #637e18;
+  text-align: left;
+}
+
+tbody td {
+  padding: 10px 12px;
+  border: 1px solid #d0d7de;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #eaf4fc;
+}
+
+/* Contenedor gráfico */
+.grafico-container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+
+/* Pie de página */
+footer small {
+  color: #888;
+}
